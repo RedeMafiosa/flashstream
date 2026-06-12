@@ -1,38 +1,38 @@
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "./components/ui/toaster";
 import { Toaster as SonnerToaster } from "sonner";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import PageNotFound from "./lib/PageNotFound";
 
-import Login from "@/pages/Login";
-import Register from "@/pages/Register";
-import ForgotPassword from "@/pages/ForgotPassword";
-import ResetPassword from "@/pages/ResetPassword";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 
-import AppLayout from "@/components/layout/AppLayout";
-import Home from "@/pages/Home";
-import Streams from "@/pages/Streams";
-import StreamView from "@/pages/StreamView";
-import Store from "@/pages/Store";
-import WalletPage from "@/pages/WalletPage";
-import VipPage from "@/pages/VipPage";
-import Ranking from "@/pages/Ranking";
-import Support from "@/pages/Support";
-import Feed from "@/pages/Feed";
-import Rooms from "@/pages/Rooms";
-import GeneralChat from "@/pages/GeneralChat";
-import Rules from "@/pages/Rules";
-import Privacy from "@/pages/Privacy";
-import AdminDashboard from "@/pages/admin/AdminDashboard";
-import AdminStreams from "@/pages/admin/AdminStreams";
-import AdminStore from "@/pages/admin/AdminStore";
-import AdminSettings from "@/pages/admin/AdminSettings";
-import AdminVip from "@/pages/admin/AdminVip";
-import AdminUsers from "@/pages/admin/AdminUsers";
-import AdminTags from "@/pages/admin/AdminTags";
-import AdminMembers from "@/pages/admin/AdminMembers";
-import Profile from "@/pages/Profile";
-import Inventory from "@/pages/Inventory";
+import AppLayout from "./components/layout/AppLayout";
+import Home from "./pages/Home";
+import Streams from "./pages/Streams";
+import StreamView from "./pages/StreamView";
+import Store from "./pages/Store";
+import WalletPage from "./pages/WalletPage";
+import VipPage from "./pages/VipPage";
+import Ranking from "./pages/Ranking";
+import Support from "./pages/Support";
+import Feed from "./pages/Feed";
+import Rooms from "./pages/Rooms";
+import GeneralChat from "./pages/GeneralChat";
+import Rules from "./pages/Rules";
+import Privacy from "./pages/Privacy";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminStreams from "./pages/admin/AdminStreams";
+import AdminStore from "./pages/admin/AdminStore";
+import AdminSettings from "./pages/admin/AdminSettings";
+import AdminVip from "./pages/admin/AdminVip";
+import AdminUsers from "./pages/admin/AdminUsers";
+import AdminTags from "./pages/admin/AdminTags";
+import AdminMembers from "./pages/admin/AdminMembers";
+import Profile from "./pages/Profile";
+import Inventory from "./pages/Inventory";
 
 const AuthenticatedApp = () => {
   return (
