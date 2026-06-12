@@ -22,7 +22,7 @@ export default function Feed() {
 
   const { data: posts = [], isLoading } = useQuery({
     queryKey: ["feed-posts"],
-    queryFn: () => db.entities.FeedPost.list("-created_date", 50),
+   queryFn: async () => [],
   });
 
   const createPost = useMutation({
